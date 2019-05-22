@@ -4,7 +4,7 @@ const faker = require("faker");
 const Product = require("../../models/Product");
 const Category = require("../../models/Category");
 
-router.get("/", function (req, res, next) {
+router.get("/", function(req, res, next) {
     const categories = [
         "Baby",
         "Movies",
